@@ -7,7 +7,9 @@
     
     
 }
-
+.new h1{
+    animation: changecolor 5s infinite alternate;
+}
 #button{
     background-color: rgb(71, 71, 209);
     color: white;
@@ -17,4 +19,29 @@
     width: 80px;
     font-size: smaller;
     font-weight: 10px;
+}
+
+#give{
+    background: #000;
+    color: white;
+    font-weight: 700;
+    padding: 5px 9px;
+    border-radius: 10px;
+    text-align: center;
+    width: fit-content;
+}
+
+@keyframes changecolor{
+    0%{
+        color : white;
+    }
+    25%{
+        color : black;
+    } 50%{
+        color : green;
+    } 75%{
+        color : purple;
+    } 100%{
+        color : red;
+}
 }
